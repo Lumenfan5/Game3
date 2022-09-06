@@ -70,8 +70,9 @@ public class CustomCharacterController : MonoBehaviour
         //Если зажат пробел, то в аниматоре отправляем сообщение тригеру, который активирует анимацию прыжка
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            anim.SetTrigger("Jump");
+            anim.SetBool("Jump", true);
         }
+        else anim.SetBool("Jump", false);
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -101,7 +102,7 @@ public class CustomCharacterController : MonoBehaviour
     public void Jump()
     {
         // Выполняем прыжок по команде анимации.
-        rig.AddForce(Vector3.up /** jumpForce*/, ForceMode.Impulse);
+        rig.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
     
 }
