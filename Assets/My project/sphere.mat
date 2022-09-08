@@ -235,11 +235,11 @@ Material:
     - Color_23C9B10D: {r: 0.04561229, g: 0.14495295, b: 0.38679245, a: 0}
     - Color_A2AAE5B5: {r: 0.11372546, g: 0.62745106, b: 0.8352941, a: 0}
     - Vector2_C848BFFB: {r: 0.25, g: 0.25, b: 0, a: 0}
-    - _BaseColor: {r: 0.97343695, g: 0.9811321, b: 0, a: 1}
+    - _BaseColor: {r: 0.98039216, g: 0.6125035, b: 0, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
-    - _Color: {r: 0.9734369, g: 0.9811321, b: 0, a: 1}
+    - _Color: {r: 0.98039216, g: 0.6125035, b: 0, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1024, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
